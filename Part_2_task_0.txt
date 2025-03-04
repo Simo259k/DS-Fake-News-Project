@@ -1,0 +1,56 @@
+Briefly discuss how you grouped the labels into two groups. Are there any limitations that could arise from the decisions you made when grouping the labels?
+
+FakeNews: 0, TrueNews: 1
+
+Fake News: Fake  
+Satire: Remove  
+Extreme Bias: Fake  
+Conspiracy Theory: Remove  
+State News: Remove  
+Junk Science: Remove  
+Hate News: ?  
+Clickbait: True  
+Proceed with Caution: Remove  
+Political: True  
+Credible: True  
+
+---
+
+CATEGORY EXPLANATIONS
+
+Fake News:  
+Labeled as fake due to its misleading or intentionally deceptive nature.  
+
+Satire:  
+Satire is highly context-dependent and, when taken out of context, can lead to misunderstandings in both directions.  
+
+Extreme Bias:  
+Due to its reliance on highly questionable foundations, often associated with propaganda or fake news, extreme bias is classified as fake news.  
+
+Conspiracy Theory:  
+Conspiracy theories are based on non-scientific claims. While they may contain some true elements, they often mix verified information with misinformation, making them unreliable.  
+
+State News:  
+Excluded due to the lack of data or counts, making it an indifferent feature.  
+
+Junk Science:  
+Based on non-scientific theories that, in a binary classification system, would be considered fake. However, some theories may be difficult to prove scientifically. The non-traditional scientific methods used might overlook truths, such as in topics like spirituality.  
+
+Hate News:  
+(To be analyzed using `most.common` for further classification.)  
+
+Clickbait:  
+Clickbait often originates from credible sources but presents information in a misleading, exaggerated way. While it is not outright false, it angles the narrative in a way that can distort reality without technically spreading fake news.  
+
+Proceed with Caution:  
+This category contains both fake and potentially true content but requires further verification. By definition, it presents hypotheses that are not yet verified and therefore cannot be conclusively categorized as true or false.  
+
+Political:  
+Generally derived from verified sources of factual information but often framed to align with a particular political ideology. It does not cross the threshold into fake news.  
+
+Credible:  
+Adheres to ethical journalistic standards, ensuring thorough source verification before publication.  
+
+---
+
+Kig på `most.common` for Hate News.
