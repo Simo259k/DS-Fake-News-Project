@@ -1,17 +1,16 @@
-# Part 2
-You should create one or more reasonable baselines for your Fake News predictor. These should be simple models that you can use to benchmark your more advanced models against. You should aim to train a binary classification model that can predict whether an article is reliable or fake.
+# Part 3 - Advanced Model (~1 page)
 
-## Task 0
-Briefly discuss how you grouped the labels into two groups. Are there any limitations that could arise from the decisions you made when grouping the labels?
+## Create the best Fake News predictor that you can come up with. 
+This should be a more complex model than the simple logistic regression model, either in the sense that it uses a more advanced method, or because it uses a more elaborate set of features. For example, you might consider using:
+1. Support Vector Machine
+2. Naive Bayes Classifier
+3. Neural network.
+The input features might use more complex text representations, such as TF-IDF weights or continuous word embeddings.
 
-## Task 1 
-Start by implementing and training a simple logistic regression classifier using a fixed vocabulary of the 10,000 most frequent words extracted from the content field, as the input features. You do not need to apply TF-IDF weighting to the features. It should take no more than five minutes to fit this model on a modern laptop, and you should expect to achieve an F1 score of ~94% on your test split. Write in your report the performance that you achieve with your implementation of this model, and remember to report any hyper-parameters used for the training process.
+## Report necessary details about your models ensuring full reproducibility
+This could include, for example: 
+1. The choice of relevant parameters and how you chose them.
+Make sure to argue for why you chose this approach over potential alternatives.
 
-## Task 2 
-Consider whether it would make sense to include meta-data features as well. If so, which ones, and why? If relevant, report the performance when including these additional features and compare it to the first baselines. Discuss whether these results match your expectations.
-
-## Task 3 
-Apply your data preprocessing pipeline to the extra reliable data you scraped during Graded Exercise 2 and add this to the training data and observe how this changes the performance of your simple model. Discuss whether you will continue to use this extra reliable data for the Advanced Model.
-
-For the remainder of the project, we will limit ourselves to main-text data only (i.e. no meta-data). This makes it easier to do the cross-domain experiment in Part 4 (which does not have the same set of meta-data fields).
-
+## Optional 
+If you want to go even further, you might want to try training your models on even more data. The full FakeNewsCorpusLinks to an external site. is a total of 9GB of source material available for training your model. You will need to use a multi-part decompression tool, e.g. 7z. Given all the files, execute the following command: 7z x news.csv.zip. This should create a 27GB file on disk (29.322.513.705 bytes). You may find it challenging to run your data processing pipeline on the entire FakeNewsCorpus, so take care if you attempt this step.
