@@ -1,0 +1,4 @@
+# Part 5 - Conclusions (~0.5 page)
+Conclude your report by discussing the results you obtained. Explain the discrepancy between the performance on your test set and on the LIAR set. If relevant, use visualizations or report relevant statistics to point out differences in the datasets. Discuss the issues about sample bias when evaluating on a different distribution of data than the training data. Conclude with describing overall lessons learned during the project, for instance considering questions like: Does the discrepancy between performance on different data sets surprise you? What can be done to improve the performance of Fake News prediction? Will further progress be driven primarily by better models or by better data?
+
+Please note that the general discussion is not merely a summary of what you have done in the other questions. We expect to see some non-trivial reflection in this section.
