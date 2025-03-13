@@ -1,4 +1,4 @@
-# Part 2
+# Part 2 - Simple Logistic Regression Model (~1 page)
 You should create one or more reasonable baselines for your Fake News predictor. These should be simple models that you can use to benchmark your more advanced models against. You should aim to train a binary classification model that can predict whether an article is reliable or fake.
 
 ## Task 0
