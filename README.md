@@ -8,7 +8,7 @@ First, create a fresh virtual environment or make sure your existing environment
 Then, ensure that your directory is empty to avoid any filename conflicts.
 
 PART 1
-- First you'll have to download the sample of the FakeNewsCorpus [FakeNewsCorpus][(https://raw.githubusercontent.com/several27/FakeNewsCorpus/master/news_sample.csvLinks to an external site.)](https://raw.githubusercontent.com/several27/FakeNewsCorpus/master/news_sample.csvLinks to an external site.))
+- First you'll have to download the sample of the FakeNewsCorpus [FakeNewsCorpus][(https://raw.githubusercontent.com/several27/FakeNewsCorpus/master/news_sample.csvLinks to an external site.)]
 - Do not have a file with the name "cleaned_file.csv" saved beforehand in your directory
 
 
