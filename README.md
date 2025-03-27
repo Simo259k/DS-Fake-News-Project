@@ -18,3 +18,5 @@ To execute the cells in `Part 2/Task_0_1_2_3` and `Part 2/More_exploration.ipynb
 To execute `AdvancedPart3_final.ipynb` you need to execute the files in Part 1 to provide you with `cleaned_file.csv`. Be sure, that this file is in the same directory as you're locating `AdvancedPart3_final.ipynb`. Execute the script in chronological order by clicking each codeblock or `run all`.
 
 ## PART 4
+- Download the LIAR dataset and ensure that the file `test.tsv` is in your working directory.
+- Before running the cells in `Part 4/Task_1_2_3_simple_model.ipynb`, verify that you have executed all previous parts. This should result in a file named `WITHOUT_NUM_cleaned_file_with_labels.csv` being present in your working directory.
