@@ -8,7 +8,5 @@ First, create a fresh virtual environment or make sure your existing environment
 Then, ensure that your directory is empty to avoid any filename conflicts.
 
 PART 1
-- First you'll have to download the sample of the FakeNewsCorpus [FakeNewsCorpus][(https://raw.githubusercontent.com/several27/FakeNewsCorpus/master/news_sample.csvLinks to an external site.)]
-- Do not have a file with the name "cleaned_file.csv" saved beforehand in your directory
-
-
+- First, download the sample version of the FakeNewsCorpus and save it as `news_sample.csv`. Then, download the complete dataset and save it as `995,000_rows.csv`.
+- After that, download the Jupyter Notebook `PART1.ipynb` from the `DS-Fake-News-Project/Part 1/` folder on GitHub and run it sequentially as arranged.
