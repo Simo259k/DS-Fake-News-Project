@@ -13,3 +13,16 @@ Then, ensure that your directory is empty to avoid any filename conflicts.
 
 ## PART 2
 To execute the cells in "Part 2/Task_0_1_2_3" and "Part 2/More_exploration.ipynb", you first need to insure, that you have executed the cells in Part 1. This means that you should have a file called "cleaned_file.csv" in your working directory. Also, "output_big.txt" should also be in your working directory. However, this file shold already be present. 
+
+{fig:type=bias}
+{fig:type=clickbait}
+{fig:type=conspiracy}
+{fig:type=fake}
+{fig:type=hate}
+{fig:type=junksci}
+{fig:type=political}
+{fig:type=reliable}
+{fig:type=rumor}
+{fig:type=satire}
+{fig:type=unknown}
+{fig:type=unreliable}
