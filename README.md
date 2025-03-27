@@ -12,17 +12,11 @@ Then, ensure that your directory is empty to avoid any filename conflicts.
 - After that, download the Jupyter Notebook `PART1.ipynb` from the `DS-Fake-News-Project/Part 1/` folder on GitHub and run it sequentially as arranged.
 
 ## PART 2
-To execute the cells in "Part 2/Task_0_1_2_3" and "Part 2/More_exploration.ipynb", you first need to insure, that you have executed the cells in Part 1. This means that you should have a file called "cleaned_file.csv" in your working directory. Also, "output_big.txt" should also be in your working directory. However, this file shold already be present. 
+To execute the cells in `Part 2/Task_0_1_2_3` and `Part 2/More_exploration.ipynb`, you first need to insure, that you have executed the cells in Part 1. This means that you should have a file called `cleaned_file.csv` in your working directory. Also, `output_big.txt` should also be in your working directory. However, this file shold already be present. 
 
-{fig:type=bias}
-{fig:type=clickbait}
-{fig:type=conspiracy}
-{fig:type=fake}
-{fig:type=hate}
-{fig:type=junksci}
-{fig:type=political}
-{fig:type=reliable}
-{fig:type=rumor}
-{fig:type=satire}
-{fig:type=unknown}
-{fig:type=unreliable}
+## PART 3
+To execute `AdvancedPart3_final.ipynb` you need to execute the files in Part 1 to provide you with `cleaned_file.csv`. Be sure, that this file is in the same directory as you're locating `AdvancedPart3_final.ipynb`. Execute the script in chronological order by clicking each codeblock or `run all`.
+
+## PART 4
+- Download the LIAR dataset and ensure that the file `test.tsv` is in your working directory.
+- Before running the cells in `Part 4/Task_1_2_3_simple_model.ipynb`, verify that you have executed all previous parts. This should result in a file named `WITHOUT_NUM_cleaned_file_with_labels.csv` being present in your working directory.

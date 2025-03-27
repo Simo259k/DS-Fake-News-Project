@@ -1,5 +1,8 @@
 # Part 3 - Advanced Model (~1 page)
 
+## How to run:
+To execute AdvancedPart3_final.ipynb you need to execute the files in Part 1 to provide you with "cleaned_file.csv". Be sure, that this file is in the same directory as you're locating AdvancedPart3_final.ipynb. Execute the script in chronological order by clicking each codeblock or "run all". 
+
 ## Create the best Fake News predictor that you can come up with. 
 This should be a more complex model than the simple logistic regression model, either in the sense that it uses a more advanced method, or because it uses a more elaborate set of features. For example, you might consider using:
 1. Support Vector Machine
