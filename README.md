@@ -9,7 +9,8 @@ Ensure that your working directory is empty to avoid any filename conflicts. The
 
 ## PART 1
 - First, download the sample version of the FakeNewsCorpus and save it as `news_sample.csv`. Then, download the complete dataset and save it as `995,000_rows.csv`.
-- After that, download the Jupyter Notebook `PART1.ipynb` from the `DS-Fake-News-Project/Part 1/` folder on GitHub and run it sequentially as arranged.
+- After that, download the Jupyter Notebook `PART1_final.ipynb` from the `DS-Fake-News-Project/Part 1/` folder on GitHub and run it sequentially as arranged.
+- Task 3, the EDA, is a seperate file called `PART_1_TASK_3.ipynb`. File `PART1_final.ipynb` needs to be executed before executing the `PART_1_TASK_3.ipynb`.
 
 ## PART 2
 - Once completed, ensure that your working directory contains the files `cleaned_file.csv` and `output_big.txt`--downloaded from the GitHub repository.
