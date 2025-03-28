@@ -1,5 +1,7 @@
 # Part 3 - Advanced Model (~1 page)
 
+## Be aware that the code for both Part 3 and Part 4 for the advanced model are in this file.
+
 ## How to run:
 To execute AdvancedPart3_final.ipynb you need to execute the files in Part 1 to provide you with "cleaned_file.csv". Be sure, that this file is in the same directory as you're locating AdvancedPart3_final.ipynb. Execute the script in chronological order by clicking each codeblock or "run all". 
 
