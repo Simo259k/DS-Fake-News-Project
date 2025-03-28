@@ -13,7 +13,7 @@ Ensure that your working directory is empty to avoid any filename conflicts. The
 - Task 3, the EDA, is a seperate file called `PART_1_TASK_3.ipynb`. File `PART1_final.ipynb` needs to be executed before executing the `PART_1_TASK_3.ipynb`.
 
 ## PART 2
-- Once completed, ensure that your working directory contains the files `cleaned_file.csv` and `output_big.txt`--downloaded from the GitHub repository.
+- Once completed, ensure that your working directory contains the files `cleaned_file.csv` and `output_big.txt` – downloaded from the GitHub repository.
 - After confirming these files are present, proceed by executing the cells in `Part 2/Task_0_1_2_3` followed by those in `Part 2/More_exploration.ipynb`.
 
 ## PART 3
