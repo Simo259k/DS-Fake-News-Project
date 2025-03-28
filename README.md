@@ -10,14 +10,15 @@ Ensure that your working directory is empty to avoid any filename conflicts. The
 ## PART 1
 - First, download the sample version of the FakeNewsCorpus and save it as `news_sample.csv`. Then, download the complete dataset and save it as `995,000_rows.csv`.
 - After that, download the Jupyter Notebook `PART1_final.ipynb` from the `DS-Fake-News-Project/Part 1/` folder on GitHub and run it sequentially as arranged.
-- Task 3, the EDA, is a seperate file called `PART_1_TASK_3.ipynb`. File `PART1_final.ipynb` needs to be executed before executing the `PART_1_TASK_3.ipynb`.
+    - Make sure files named `cleaned_file.csv` , `X_train`, `X_test,` and `X_val` are not already present in your directory. 
+- Task 3, the EDA, is a separate file called `PART_1_TASK_3.ipynb`. File `PART1_final.ipynb` needs to be executed before executing the `PART_1_TASK_3.ipynb`.
 
 ## PART 2
 - Once completed, ensure that your working directory contains the files `cleaned_file.csv` and `output_big.txt` – downloaded from the GitHub repository.
 - After confirming these files are present, proceed by executing the cells in `Part 2/Task_0_1_2_3` followed by those in `Part 2/More_exploration.ipynb`.
 
 ## PART 3
-- Ensure that you have executed all the files in Part 1 so that the file `cleaned_file.csv` is generated, and verify that it is located in the same directory as - `AdvancedPart3_final.ipynb`.
+- Ensure that you have executed all the files in Part 1 so that the files  `X_train` and `X_test,` are generated in your working directory, and verify that it is located in the same directory as - `AdvancedPart3_final.ipynb`.
 - Execute `AdvancedPart3_final.ipynb` in sequential order—either by clicking each code cell or using the `Run All` option—to run the script as intended.
 
 ## PART 4
