@@ -7,4 +7,4 @@ Instructions to run the script for Part 1
 - Do not have a file with the name "cleaned_file.csv" saved beforehand in your directory
 
 ## How to run
-- Run Part1_final.ipynb for applying cleaning and ntlk preprocessing on news_sample.csv and then the larger dataset, 950,000.csv. 
+- Run Part1_final.ipynb, all code are in this file.
