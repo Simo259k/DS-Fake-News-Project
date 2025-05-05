@@ -1,5 +1,5 @@
 # DS-Fake-News-Project
-First year bachelor project in data science 
+Second semester project in data science 
 
 
 # Guidelines for processing of code
